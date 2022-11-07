@@ -1,0 +1,28 @@
+package com.te.springboot.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.te.springboot.dao.EmpDao;
+import com.te.springboot.dto.EmpLoginDto;
+import com.te.springboot.dto.RegisterDto;
+
+public class EmpServiceImpl implements EmpService {
+	@Autowired
+	private ModelMapper mapper;
+	
+	@Autowired
+	private EmpDao dao;
+
+	@Override
+	public RegisterDto register(RegisterDto dto) {
+		return null;
+	}
+
+	@Override
+	public RegisterDto login(EmpLoginDto dto) {
+		return null;
+	}
+	
+	
+
+}

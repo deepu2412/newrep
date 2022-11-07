@@ -1,0 +1,7 @@
+package com.te.springboot.dto;
+
+public class EmpLoginDto {
+	private String empId;
+	private String password;
+
+}

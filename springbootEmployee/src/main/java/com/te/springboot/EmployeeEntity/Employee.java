@@ -1,0 +1,72 @@
+package com.te.springboot.EmployeeEntity;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+
+import lombok.Data;
+import lombok.extern.slf4j.Slf4j;
+@Slf4j
+@Entity
+@Data
+public class Employee implements Serializable {
+	
+	@Id
+	private String empId;
+	private String empName;
+	private String empAge;
+
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "employeePrimaryInfo")
+//	@JsonManagedReference
+	private List<EmployeeEducational> educationInfo;
+	
+	@OneToOne(cascade = CascadeType.ALL, mappedBy = "employeePrimaryInfo")
+//	@JsonManagedReference
+	private EmployeeSecondary employeeSecondaryInfo;
+
+	public String getEmpId() {
+		return empId;
+	}
+
+	public void setEmpId(String empId) {
+		this.empId = empId;
+	}
+
+	public String getEmpName() {
+		return empName;
+	}
+
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+
+	public String getEmpAge() {
+		return empAge;
+	}
+
+	public void setEmpAge(String empAge) {
+		this.empAge = empAge;
+	}
+
+	public List<EmployeeEducational> getEducationInfo() {
+		return educationInfo;
+	}
+
+	public void setEducationInfo(List<EmployeeEducational> educationInfo) {
+		this.educationInfo = educationInfo;
+	}
+
+	public EmployeeSecondary getEmployeeSecondaryInfo() {
+		return employeeSecondaryInfo;
+	}
+
+	public void setEmployeeSecondaryInfo(EmployeeSecondary employeeSecondaryInfo) {
+		this.employeeSecondaryInfo = employeeSecondaryInfo;
+	}
+
+}

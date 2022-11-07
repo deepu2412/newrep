@@ -1,0 +1,33 @@
+package com.te.springboot.dto;
+
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+
+import com.te.springboot.EmployeeEntity.EmployeeEducational;
+import com.te.springboot.EmployeeEntity.EmployeeSecondary;
+
+import lombok.Data;
+@Data
+
+public class EmployeeDto {
+	@Id
+	private String empId;
+	private String empName;
+	private String empAge;
+
+//	@OneToMany(cascade = CascadeType.ALL, mappedBy = "employeePrimaryInfo")
+//	@JsonManagedReference
+	private List<EmployeeEducational> educationInfo;
+	
+	
+	
+//	@OneToOne(cascade = CascadeType.ALL, mappedBy = "employeePrimaryInfo")
+//	@JsonManagedReference
+	private EmployeeSecondary employeeSecondaryInfo;
+
+
+}

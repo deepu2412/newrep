@@ -1,0 +1,43 @@
+package com.te.springboot.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.te.springboot.Entity.Employee;
+import com.te.springboot.dto.EmpLoginDto;
+import com.te.springboot.service.EmpService;
+
+
+
+public class EmpController {
+	@Autowired
+	private EmpService service;
+	private String empId;
+
+	@PostMapping("/register")
+	public ResponseEntity<?> register(@RequestBody Employee employee) {
+
+
+		if (service.register(employee) != null) {
+			return new ResponseEntity<String>("Data entrered", HttpStatus.ACCEPTED);
+		}
+		return new ResponseEntity<String>("something went wrong", HttpStatus.BAD_REQUEST);
+	}
+
+	@PostMapping("/login")
+	public ResponseEntity<?> getLogin(@RequestBody EmpLoginDto dto) {
+		Employee employee = service.getLogin(dto);
+
+		if (employee != null) {
+		
+			return new ResponseEntity<>("Welcome " + employee.getEmpName(), HttpStatus.ACCEPTED);
+		}
+		return new ResponseEntity<>("something went wrong", HttpStatus.ACCEPTED);
+
+	}
+
+
+}

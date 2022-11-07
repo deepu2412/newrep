@@ -1,0 +1,12 @@
+package com.te.springboot.EmployeeServices;
+
+import com.te.springboot.EmployeeEntity.Employee;
+
+public interface EmployeeService {
+
+	public Employee register(Employee employee); 
+	
+
+		
+
+}

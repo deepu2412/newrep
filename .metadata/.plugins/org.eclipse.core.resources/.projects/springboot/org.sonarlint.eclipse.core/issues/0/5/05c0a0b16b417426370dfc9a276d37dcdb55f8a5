@@ -1,0 +1,45 @@
+
+U
+java:S14524"&Remove usage of generic wildcard type.(”¿İHÒRCRITICALZ
+CODE_SMELL
+…
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(«×şÛHÉRMINORZ
+CODE_SMELL
+Z
+java:S1452"&Remove usage of generic wildcard type.(ğé¬ÿúÿÿÿÿHÄRCRITICALZ
+CODE_SMELL
+Z
+java:S1452$"&Remove usage of generic wildcard type.(Ú©Ô¨şÿÿÿÿHËRCRITICALZ
+CODE_SMELL
+T
+java:S1452,"&Remove usage of generic wildcard type.(©âÀLHÌRCRITICALZ
+CODE_SMELL
+Š
+java:S2293<"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹¼¯ßıÿÿÿÿHÍRMINORZ
+CODE_SMELL
+Š
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(ê±ïúÿÿÿÿH¼RMINORZ
+CODE_SMELL
+Š
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(›îùÿÿÿÿHÇRMINORZ
+CODE_SMELL
+…
+java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇœìªHÏRMINORZ
+CODE_SMELL
+w
+java:S4684$"@Replace this persistent entity with a simple POJO or DTO object.(Ú©Ô¨şÿÿÿÿHÑRCRITICALZVULNERABILITY
+h
+java:S1128"<Remove this unused import 'net.bytebuddy.asm.Advice.Return'.(ş„‹¢HÀRMINORZ
+CODE_SMELL
+Š
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÈáÀËùÿÿÿÿHÅRMINORZ
+CODE_SMELL
+Š
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(Ş…ı³üÿÿÿÿH¾RMINORZ
+CODE_SMELL
+…
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨†˜—HÂRMINORZ
+CODE_SMELL
+†
+java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8‰âÂæÂ0HŞRMINORZ
+CODE_SMELL

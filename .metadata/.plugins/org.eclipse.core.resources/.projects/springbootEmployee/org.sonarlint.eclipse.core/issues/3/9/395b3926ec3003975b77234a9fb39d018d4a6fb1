@@ -1,0 +1,16 @@
+
+Œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(éŞ¡ª8ØâÂ0HçRMINORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ş…ı³üÿÿÿÿ8ù¿âÂ0HìRMINORZ
+CODE_SMELL
+\
+java:S1452"&Remove usage of generic wildcard type.(ŞÙ•§8ûÈêÁ0HêRCRITICALZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š€²HëRMINORZ
+CODE_SMELL
+x
+java:S1128
+"FRemove this unused import 'com.te.springboot.EmployeeEntity.Employee'.(š‚çl8 áÉïÂ0HRMINORZ
+CODE_SMELL

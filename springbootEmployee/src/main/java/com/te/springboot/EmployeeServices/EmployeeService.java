@@ -1,0 +1,12 @@
+package com.te.springboot.EmployeeServices;
+
+import com.te.springboot.dto.EmployeeDto;
+
+public interface EmployeeService {
+
+	//public Employee register(Employee employee); 
+	
+	void register(EmployeeDto empDto);
+		
+
+}

@@ -1,0 +1,26 @@
+2022-10-31 10:50:44.548  INFO 19896 --- [main] c.t.s.SpringbootEmployeeApplication      : Starting SpringbootEmployeeApplication using Java 1.8.0_201 on DESKTOP-GREPTPE with PID 19896 (C:\Users\Deepti\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\springbootEmployee\target\classes started by Deepti in C:\Users\Deepti\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\springbootEmployee)
+2022-10-31 10:50:44.551  INFO 19896 --- [main] c.t.s.SpringbootEmployeeApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 10:50:45.182  INFO 19896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-31 10:50:45.226  INFO 19896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2022-10-31 10:50:45.625  INFO 19896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-10-31 10:50:45.636  INFO 19896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 10:50:45.637  INFO 19896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 10:50:46.009  INFO 19896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-31 10:50:46.010  INFO 19896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1422 ms
+2022-10-31 10:50:46.178  INFO 19896 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-31 10:50:46.308  INFO 19896 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-31 10:50:46.470  INFO 19896 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-31 10:50:46.567  INFO 19896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-31 10:50:46.571  WARN 19896 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-10-31 10:50:47.008  INFO 19896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-31 10:50:47.048  INFO 19896 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-31 10:50:47.827  INFO 19896 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-31 10:50:47.839  INFO 19896 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-31 10:50:48.275  WARN 19896 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-31 10:50:48.883  INFO 19896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-10-31 10:50:48.892  INFO 19896 --- [main] c.t.s.SpringbootEmployeeApplication      : Started SpringbootEmployeeApplication in 4.719 seconds (JVM running for 5.718)
+2022-10-31 12:01:31.998  INFO 19896 --- [RMI TCP Connection(75)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-31 12:01:32.175  INFO 19896 --- [RMI TCP Connection(75)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 12:01:32.213  INFO 19896 --- [RMI TCP Connection(75)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-31 12:01:32.233  INFO 19896 --- [RMI TCP Connection(75)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-31 12:01:32.240  INFO 19896 --- [RMI TCP Connection(75)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

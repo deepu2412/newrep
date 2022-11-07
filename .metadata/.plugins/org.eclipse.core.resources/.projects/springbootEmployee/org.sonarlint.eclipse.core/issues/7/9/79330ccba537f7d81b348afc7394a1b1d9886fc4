@@ -1,0 +1,8 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŸÌôéHîRMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(îþÔ«ýÿÿÿÿ8žáÉïÂ0H‚RMAJORZ
+CODE_SMELL
+x
+java:S1128"FRemove this unused import 'com.te.springboot.EmployeeEntity.Employee'.(š‚çl8žáÉïÂ0HƒRMINORZ
+CODE_SMELL

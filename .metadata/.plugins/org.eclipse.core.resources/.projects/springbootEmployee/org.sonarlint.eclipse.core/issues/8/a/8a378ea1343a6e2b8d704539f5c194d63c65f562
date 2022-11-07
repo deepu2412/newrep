@@ -1,0 +1,10 @@
+
+n	java:S125"<This block of commented-out lines of code should be removed.(·ÎšÀ8¢„€ğÁ0HğRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŸÌôéHóRMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ÓÓ¹€ÿÿÿÿÿ8„ºæïÂ0H RMAJORZ
+CODE_SMELL
+v
+java:S1128">Remove this unused import 'org.apache.catalina.mapper.Mapper'.(§€Ãàúÿÿÿÿ8„ºæïÂ0H¢RMINORZ
+CODE_SMELL

@@ -1,0 +1,9 @@
+package com.te.springboot.dto;
+
+public class RegisterDto {
+	private String empId;
+	private String empName;
+	private String empAge;
+	private String password;
+
+}
